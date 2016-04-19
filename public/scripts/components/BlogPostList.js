@@ -22,5 +22,9 @@ export default React.createClass({
 			<div>{val.get('createdAt')}</div>;
 			<div>{val.get('body')}</div>;
 		});
+	
+		return (
+			<div>{blogPostList}</div>
+		);
 	}
 });
